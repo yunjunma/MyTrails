@@ -1,5 +1,8 @@
 source 'http://rubygems.org'
 
+gem 'bootstrap-sass', '~> 3.3.6'  
+gem 'jquery-rails'
+
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -13,6 +16,7 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
+# gem 'sass-rails', '>= 3.2'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
