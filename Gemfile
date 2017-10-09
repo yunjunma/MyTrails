@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'bootstrap-sass', '~> 3.3.6'  
 gem 'jquery-rails'
+gem 'gmaps4rails'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
