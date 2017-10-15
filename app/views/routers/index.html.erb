@@ -19,7 +19,8 @@
   <tbody>
     <% @routers.each do |router| %>
       <tr>
-        <td><%= router.name %></td>
+        <td><%= link_to router.name, router %></td>
+        <td><%= router.name %></td> <!-- this is modified -->
         <td><%= router.latitude %></td>
         <td><%= router.longitude %></td>
         <td><%= link_to 'Show', router %></td>
